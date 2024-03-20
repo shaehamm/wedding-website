@@ -21,7 +21,7 @@ export default function Navbar() {
           >
             <div className="offcanvas-header">
               <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                Shae & Connor's Wedding
+                Shae & Connor&apos;s Wedding
               </h5>
               <button
                 type="button"
