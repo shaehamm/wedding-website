@@ -1,0 +1,12 @@
+import { NavLink } from "./types";
+
+export const NAV_LINKS: NavLink[] = [
+  { name: "Home", href: "/" },
+  { name: "Our Story", href: "/our-story" },
+  { name: "Wedding Party", href: "/wedding-party" },
+  { name: "Photos", href: "/photos" },
+  { name: "Travel", href: "/travel-info" },
+  { name: "Q + A", href: "/faqs" },
+  { name: "Registry", href: "/registry" },
+  { name: "RSVP", href: "/rsvp" },
+];
