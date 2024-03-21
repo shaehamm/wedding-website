@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+import Link from "next/link";
 import { NavLink } from "./types";
 
 export const NAV_LINKS: NavLink[] = [

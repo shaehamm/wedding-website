@@ -1,72 +1,31 @@
+"use client";
+
+import React from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import clsx from "clsx";
+import { NAV_LINKS } from "../../../lib/constants";
+
 export default function Navbar() {
+  const pathname = usePathname();
   return (
-    <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
+    <nav className="fixed inset-x-0 top-0 space-x-4 px-8 h-14 backdrop-blur-md z-50 justify-end items-center hidden md:flex">
+      {NAV_LINKS.map((link) => {
+        return (
+          <Link
+            key={link.name}
+            href={link.href}
+            className={clsx(
+              "font-medium hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:bg-clip-text hover:text-transparent",
+              {
+                underline: pathname === link.href,
+              }
+            )}
           >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div
-            className="offcanvas offcanvas-start"
-            data-bs-backdrop="static"
-            data-bs-keyboard="true"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div className="offcanvas-header">
-              <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                Shae & Connor&apos;s Wedding
-              </h5>
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div className="offcanvas-body">
-              <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
-                <li className="nav-item">
-                  <a className="nav-link" href="/our-story.html">
-                    Our Story
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/wedding-party.html">
-                    Wedding Party
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/registry.html">
-                    Registery
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/travel.html">
-                    Travel
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/faqs.html">
-                    FAQs
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/rsvp.html">
-                    RSVP
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </>
+            <p className="block">{link.name}</p>
+          </Link>
+        );
+      })}
+    </nav>
   );
 }
