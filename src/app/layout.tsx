@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="justify-center">
+      <body className="justify-center mx-40">
         <Header />
         <Navbar />
         <main className={inter.className}>{children}</main>
