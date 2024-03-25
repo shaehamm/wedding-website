@@ -18,9 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Header />
-      <Navbar />
-      <body className={inter.className}>{children}</body>
+      <body className="justify-center">
+        <Header />
+        <Navbar />
+        <main className={inter.className}>{children}</main>
+      </body>
     </html>
   );
 }
