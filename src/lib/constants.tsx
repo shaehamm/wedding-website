@@ -8,7 +8,7 @@ export const NAV_LINKS: NavLink[] = [
   { name: "Wedding Party", href: "/wedding-party" },
   { name: "Photos", href: "/photos" },
   { name: "Travel", href: "/travel-info" },
-  { name: "Q + A", href: "/faqs" },
+  { name: "Q + A", href: "/q+a" },
   { name: "Registry", href: "/registry" },
   { name: "RSVP", href: "/rsvp" },
 ];
