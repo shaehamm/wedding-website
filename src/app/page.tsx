@@ -12,7 +12,7 @@ export default function Home() {
         <Image
           priority
           src={mountainLandscapeImage}
-          alt="Connor & Shae in the Rocky Mountains"
+          alt="Connor & Shae in the Rocky Mountains near Breckenridge, CO"
           placeholder="blur"
         />
       </div>
