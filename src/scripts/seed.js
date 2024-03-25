@@ -9,9 +9,11 @@ async function seedRSVP(client) {
     const createTable = await client.sql`
       CREATE TABLE IF NOT EXISTS rsvps (
         id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
-        name VARCHAR(255) NOT NULL,
+        full_name VARCHAR(255) NOT NULL,
+        is_coming BOOLEAN NOT NULL,
         email TEXT NOT NULL UNIQUE,
-        password TEXT NOT NULL
+        dietary_restrictions TEXT NOT NULL,
+        note TEXT NOT NULL,
       );
     `;
 

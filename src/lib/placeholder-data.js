@@ -8,7 +8,8 @@ const rsvps = [
     dinner: "",
     dietary_restrictions: "",
     note: "",
-    is_plus_one: "",
+    is_plus_one: false,
+    accompanying_rsvp: {},
   },
   {
     full_name: "",
@@ -17,6 +18,6 @@ const rsvps = [
     dinner: "",
     dietary_restrictions: "",
     note: "",
-    is_plus_one: "",
+    is_plus_one: false,
   },
 ];
