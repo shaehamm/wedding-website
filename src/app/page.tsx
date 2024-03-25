@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mountainLandscapeImage from "../public/mountain_landscape.jpg";
+import mountainLandscapeImage from "../public/mountain-landscape.png";
 
 export default function Home() {
   return (
