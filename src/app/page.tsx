@@ -20,7 +20,7 @@ export default function Home() {
         <p>Wedding Day</p>
         <p>Saturday, February 15th 2025</p>
         <p>Della Terra Mountain Chateau</p>
-        <div className="row-span-2">
+        <div className="columns-2">
           <p>2:30pm</p>
           <p>Ceremony</p>
         </div>
