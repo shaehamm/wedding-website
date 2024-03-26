@@ -3,7 +3,7 @@ import mountainLandscapeImage from "../../public/mountain_landscape.jpg";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between px-24">
       <div
         className={
           "z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex"
@@ -17,15 +17,38 @@ export default function Home() {
         />
       </div>
       <div>
-        <p>Wedding Day</p>
-        <p>Saturday, February 15th 2025</p>
-        <p>Della Terra Mountain Chateau</p>
-        <div className="columns-2">
-          <p>2:30pm</p>
-          <p>Ceremony</p>
+        <div className="text-center pt-10">
+          <h2>Wedding Day</h2>
+          <h3>Saturday, February 15th 2025</h3>
+          <h3>Della Terra Mountain Chateau</h3>
         </div>
-
-        <p>3:00pm</p>
+        <div className="columns-2 pt-5">
+          <div>
+            <h3>2:30pm</h3>
+          </div>
+          <div>
+            <h3>Ceremony</h3>
+            <p>Make your way to the ceremony and grab a blanket</p>
+          </div>
+        </div>
+        <div className="columns-2 pt-5">
+          <div>
+            <h3>3:00pm</h3>
+          </div>
+          <div>
+            <h3>Cocktail Hour</h3>
+            <p>Head inside and enjoy yourself</p>
+          </div>
+        </div>
+        <div className="columns-2 pt-5">
+          <div>
+            <h3>4:30pm</h3>
+          </div>
+          <div>
+            <h3>Dinner</h3>
+            <p>Find your seat and dine with us</p>
+          </div>
+        </div>
       </div>
     </main>
   );
