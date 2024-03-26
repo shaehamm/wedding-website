@@ -67,12 +67,15 @@
 
   h1 {
     @apply text-4xl;
+    @apply p-3;
   }
   h2 {
     @apply text-2xl;
+    @apply p-2;
   }
   h3 {
     @apply text-xl;
+    @apply p-1;
   }
 }
 
