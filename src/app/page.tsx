@@ -15,17 +15,17 @@ export default function Home() {
           alt="Connor & Shae in the Rocky Mountains near Breckenridge, CO"
           placeholder="blur"
         />
-        <div>
-          <p>Wedding Day</p>
-          <p>Saturday, February 15th 2025</p>
-          <p>Della Terra Mountain Chateau</p>
-          <div className="row-span-2">
-            <p>2:30pm</p>
-            <p>Ceremony</p>
-          </div>
-
-          <p>3:00pm</p>
+      </div>
+      <div>
+        <p>Wedding Day</p>
+        <p>Saturday, February 15th 2025</p>
+        <p>Della Terra Mountain Chateau</p>
+        <div className="row-span-2">
+          <p>2:30pm</p>
+          <p>Ceremony</p>
         </div>
+
+        <p>3:00pm</p>
       </div>
     </main>
   );
