@@ -1,5 +1,6 @@
 import Image from "next/image";
 import mountainLandscapeImage from "../../public/mountain_landscape.jpg";
+import { DAY_OF_SCHEDULE } from "../lib/constants";
 import { Manrope } from "next/font/google";
 
 const manropeLight = Manrope({ weight: "200", subsets: ["latin"] });
@@ -26,7 +27,28 @@ export default function Home() {
           <h3>Della Terra Mountain Chateau</h3>
         </div>
         <div>
-          <p className="text-center pt-10">
+          {DAY_OF_SCHEDULE.map((link) => {
+            return (
+              <div>
+                <p className="text-center pt-5">
+                  ________________________________________________
+                </p>
+
+                <div className="columns-2 pt-5">
+                  <div>
+                    <h3>{link.time}</h3>
+                  </div>
+                  <div>
+                    <h3>{link.title}</h3>
+                    <p>{link.description}</p>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div>
+          <p className="text-center pt-5">
             ________________________________________________
           </p>
         </div>
@@ -38,6 +60,11 @@ export default function Home() {
             <h3>CEREMONY</h3>
             <p>Make your way to the ceremony and grab a blanket</p>
           </div>
+        </div>
+        <div>
+          <p className="text-center pt-5">
+            ________________________________________________
+          </p>
         </div>
         <div className="columns-2 pt-5">
           <div>

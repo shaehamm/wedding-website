@@ -4,3 +4,9 @@ export type NavLink = {
 };
 
 const dinner_options = ["chicken", "fish"] as const;
+
+export type DayOfSchedule = {
+  time: string;
+  title: string;
+  description: string;
+};

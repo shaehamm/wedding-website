@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`justify-center mx-50 ${manrope.className} antialiased`}>
+      <body className={`justify-center mx-30 ${manrope.className} antialiased`}>
         <Header />
         <Navbar />
         <main>{children}</main>
