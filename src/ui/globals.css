@@ -66,11 +66,11 @@
   }
 
   h1 {
-    @apply text-4xl;
+    @apply text-6xl;
     @apply p-5;
   }
   h2 {
-    @apply text-2xl;
+    @apply text-3xl;
     @apply p-3;
   }
   h3 {
