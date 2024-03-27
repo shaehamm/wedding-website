@@ -27,20 +27,19 @@ export default function Home() {
           <h3>Della Terra Mountain Chateau</h3>
         </div>
         <div>
-          {DAY_OF_SCHEDULE.map((link) => {
+          {DAY_OF_SCHEDULE.map((item) => {
             return (
-              <div>
+              <div key={item.time}>
                 <p className="text-center pt-5">
                   ________________________________________________
                 </p>
-
                 <div className="columns-2 pt-5">
                   <div>
-                    <h3>{link.time}</h3>
+                    <h3>{item.time}</h3>
                   </div>
                   <div>
-                    <h3>{link.title}</h3>
-                    <p>{link.description}</p>
+                    <h3>{item.title}</h3>
+                    <p>{item.description}</p>
                   </div>
                 </div>
               </div>
