@@ -9,7 +9,7 @@ import { NAV_LINKS } from "../../../lib/constants";
 export default function Navbar() {
   const pathname = usePathname();
   return (
-    <nav className="justify-evenly items-center hidden md:flex">
+    <nav className="justify-evenly items-center hidden md:flex mx-10">
       {NAV_LINKS.map((link) => {
         return (
           <Link

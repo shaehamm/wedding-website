@@ -46,43 +46,6 @@ export default function Home() {
             );
           })}
         </div>
-        <div>
-          <p className="text-center pt-5">
-            ________________________________________________
-          </p>
-        </div>
-        <div className="columns-2 pt-5">
-          <div>
-            <h3>2:30pm</h3>
-          </div>
-          <div>
-            <h3>CEREMONY</h3>
-            <p>Make your way to the ceremony and grab a blanket</p>
-          </div>
-        </div>
-        <div>
-          <p className="text-center pt-5">
-            ________________________________________________
-          </p>
-        </div>
-        <div className="columns-2 pt-5">
-          <div>
-            <h3>3:00pm</h3>
-          </div>
-          <div>
-            <h3>COCKTAIL HOUR</h3>
-            <p>Head inside and enjoy yourself</p>
-          </div>
-        </div>
-        <div className="columns-2 pt-5">
-          <div>
-            <h3>4:30pm</h3>
-          </div>
-          <div>
-            <h3>DINNER</h3>
-            <p>Find your seat and dine with us</p>
-          </div>
-        </div>
       </div>
     </main>
   );

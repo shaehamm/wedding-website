@@ -70,7 +70,7 @@
     @apply p-4;
   }
   h2 {
-    @apply text-4xl;
+    @apply text-5xl;
     @apply p-3;
   }
   h3 {
