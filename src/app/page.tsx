@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <div>
         <div className="text-center pt-10">
-          <h2>Wedding Day</h2>
+          <h2>WEDDING DAY</h2>
           <h3>Saturday, February 15th 2025</h3>
           <h3>Della Terra Mountain Chateau</h3>
         </div>
@@ -27,7 +27,7 @@ export default function Home() {
             <h3>2:30pm</h3>
           </div>
           <div>
-            <h3>Ceremony</h3>
+            <h3>CEREMONY</h3>
             <p>Make your way to the ceremony and grab a blanket</p>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Home() {
             <h3>3:00pm</h3>
           </div>
           <div>
-            <h3>Cocktail Hour</h3>
+            <h3>COCKTAIL HOUR</h3>
             <p>Head inside and enjoy yourself</p>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function Home() {
             <h3>4:30pm</h3>
           </div>
           <div>
-            <h3>Dinner</h3>
+            <h3>DINNER</h3>
             <p>Find your seat and dine with us</p>
           </div>
         </div>

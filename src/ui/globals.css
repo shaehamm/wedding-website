@@ -66,8 +66,8 @@
   }
 
   h1 {
-    @apply text-6xl;
-    @apply p-5;
+    @apply text-8xl;
+    @apply p-4;
   }
   h2 {
     @apply text-3xl;
