@@ -1,7 +1,7 @@
 import { WindSong, Alegreya_Sans_SC } from "next/font/google";
 
 const windsong = WindSong({ weight: "400", subsets: ["latin"] });
-const alegreyaSansSC = Alegreya_Sans_SC({ weight: "300" });
+const alegreyaSansSC = Alegreya_Sans_SC({ weight: "300", subsets: ["latin"] });
 
 export default function Header() {
   return (
