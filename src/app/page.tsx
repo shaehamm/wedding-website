@@ -1,5 +1,8 @@
 import Image from "next/image";
 import mountainLandscapeImage from "../../public/mountain_landscape.jpg";
+import { Manrope } from "next/font/google";
+
+const manropeLight = Manrope({ weight: "200", subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -18,9 +21,14 @@ export default function Home() {
       </div>
       <div>
         <div className="text-center pt-10">
-          <h2>WEDDING DAY</h2>
+          <h2 className={manropeLight.className}>WEDDING DAY</h2>
           <h3>Saturday, February 15th 2025</h3>
           <h3>Della Terra Mountain Chateau</h3>
+        </div>
+        <div>
+          <p className="text-center pt-10">
+            ________________________________________________
+          </p>
         </div>
         <div className="columns-2 pt-5">
           <div>

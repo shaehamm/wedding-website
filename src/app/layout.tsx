@@ -5,7 +5,7 @@ import Header from "./components/header/header";
 import Navbar from "./components/nav/navbar";
 import Footer from "./components/footer/footer";
 
-const manrope = Manrope({ subsets: ["latin"] });
+const manrope = Manrope({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`justify-center mx-40 ${manrope.className} antialiased`}>
+      <body className={`justify-center mx-50 ${manrope.className} antialiased`}>
         <Header />
         <Navbar />
         <main>{children}</main>
