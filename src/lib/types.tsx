@@ -10,3 +10,8 @@ export type DayOfSchedule = {
   title: string;
   description: string;
 };
+
+export type QuestionsAndAnswers = {
+  question: string;
+  answer: string;
+};
