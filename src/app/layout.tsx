@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "../ui/globals.css";
 import Header from "./components/header/header";
 import Navbar from "./components/nav/navbar";
 import Footer from "./components/footer/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className="justify-center mx-40">
         <Header />
         <Navbar />
-        <main className={inter.className}>{children}</main>
+        <main className={manrope.className}>{children}</main>
         <Footer />
       </body>
     </html>
