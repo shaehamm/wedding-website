@@ -30,9 +30,9 @@ export default function Home() {
           {DAY_OF_SCHEDULE.map((item) => {
             return (
               <div key={item.time}>
-                <p className="text-center pt-5">
-                  ________________________________________________
-                </p>
+                <div className="pt-5">
+                  <hr />
+                </div>
                 <div className="columns-2 pt-5">
                   <div>
                     <h3>{item.time}</h3>
