@@ -1,3 +1,7 @@
 export default function Page() {
-  return <p>Registry Page</p>;
+  return (
+    <div className="text-center">
+      <h2>Coming soon!</h2>
+    </div>
+  );
 }
