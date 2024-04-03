@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 export type NavLink = {
   name: string;
   href: string;
@@ -14,4 +16,10 @@ export type DayOfSchedule = {
 export type QuestionsAndAnswers = {
   question: string;
   answer: string;
+};
+
+export type Memories = {
+  date: string;
+  description: string;
+  photo: StaticImageData | null;
 };

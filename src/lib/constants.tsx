@@ -3,6 +3,7 @@ import Link from "next/link";
 import { NavLink } from "./types";
 import { DayOfSchedule } from "./types";
 import { QuestionsAndAnswers } from "./types";
+import { Memories } from "./types";
 
 export const NAV_LINKS: NavLink[] = [
   { name: "Home", href: "/" },
@@ -65,4 +66,20 @@ export const Q_AND_A: QuestionsAndAnswers[] = [
   { question: "", answer: "" },
   { question: "", answer: "" },
   { question: "", answer: "" },
+];
+
+export const MEMORIES: Memories[] = [
+  { date: "07.15.2012", photo: null, description: "first met" },
+  { date: "09.15.2012", photo: null, description: "asked to first dance" },
+  { date: "10.09.2012", photo: null, description: "bf/gf" },
+  { date: "05.05.2017", photo: null, description: "shae surpised connor" },
+  { date: "03.10.2018", photo: null, description: "moved to edina together" },
+  { date: "03.19.2020", photo: null, description: "bought house together" },
+  {
+    date: "03.22.2020 & 02.27.2021",
+    photo: null,
+    description: "grew the family",
+  },
+  { date: "01.15.2024", photo: null, description: "engaged" },
+  { date: "02.15.2025", photo: null, description: "married" },
 ];

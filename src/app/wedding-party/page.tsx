@@ -4,11 +4,11 @@ const manropeLight = Manrope({ weight: "200", subsets: ["latin"] });
 
 export default function Page() {
   return (
-    <div className="columns-2 pt-5 text-left px-2 0">
+    <div className="columns-2 py-10 text-left px-20">
       <div>
         <p className={`text-4xl ${manropeLight.className}`}>The Bridesmaids</p>
         <br />
-        <div className="pl-10">
+        <div className="pl-5">
           <p className="text-2xl">Aidan - Man of Honor</p>
           <p>Karate</p>
           <br />
@@ -22,7 +22,7 @@ export default function Page() {
       <div>
         <p className={`text-4xl ${manropeLight.className}`}>The Groomsmen</p>
         <br />
-        <div className="pl-10">
+        <div className="pl-5">
           <p className="text-2xl">James - Best Man</p>
           <p>College</p>
           <br />
