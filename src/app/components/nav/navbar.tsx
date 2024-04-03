@@ -16,7 +16,7 @@ export default function Navbar() {
             key={link.name}
             href={link.href}
             className={clsx(
-              "font-medium hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:bg-clip-text hover:text-transparent",
+              "font-medium hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:bg-clip-text hover:text-transparent px-5",
               {
                 underline: pathname === link.href,
               }
