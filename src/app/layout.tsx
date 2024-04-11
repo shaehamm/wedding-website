@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`justify-center mx-40 font-manrope-400 antialiased text-primaryGrey`}
+        className={`justify-center mx-40 ${manrope.className} antialiased text-primaryGrey`}
       >
         {/* to make font class inside string classname use ${manrope.className} */}
         <Header />

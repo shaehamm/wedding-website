@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <div className="text-center py-10 columns-3">
+        <div className="flex text-center py-10 columns-3">
           <div>
             <p>/\/\/\</p>
           </div>
