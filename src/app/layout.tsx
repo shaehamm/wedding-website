@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`justify-center mx-40 ${manrope.className} antialiased text-[#4c4945]`}
+        className={`justify-center mx-40 ${manrope.className} antialiased text-primaryGrey`}
       >
         <Header />
         <Navbar />
