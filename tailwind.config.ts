@@ -16,6 +16,9 @@ const config: Config = {
       colors: {
         primaryGrey: "#4c4945",
       },
+      fontFamily: {
+        Manrope: ["Manrope"],
+      },
     },
   },
   plugins: [],

@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <div>
         <div className="text-center pt-10">
-          <h2 className={manropeLight.className}>WEDDING DAY</h2>
+          <h2 className="font-Manrope-200">WEDDING DAY</h2>
           <h3>Saturday, February 15th 2025</h3>
           <h3>Della Terra Mountain Chateau</h3>
         </div>
